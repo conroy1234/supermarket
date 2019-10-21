@@ -1,6 +1,5 @@
 package kata.supermarket.service;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -36,7 +35,6 @@ public class ProductService {
 
 			if (item.getQuantity() >= 2 && item.getName().equals("Beans")) {
 				this.discountPercentage = discountPersentage(item.getQuantity(), this.totalcost);
-
 			}else
 			if (item.getQuantity() >= 2 && item.getName().equalsIgnoreCase("coke")) {
 				this.discountPercentage = halfPriceDiscount(item, item.getName(), item.getPrice());
