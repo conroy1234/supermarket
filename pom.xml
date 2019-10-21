@@ -9,11 +9,11 @@
 		<version>2.1.8.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>ord.app.crud</groupId>
-	<artifactId>crud-spring-boot-app</artifactId>
+	<groupId>kata.supermarket</groupId>
+	<artifactId>myAssessmentSupermarket</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>crud-spring-boot-app</name>
+	<name>myAssessmentSupermarket</name>
 	<description>displaying products for silver bars market place</description>
 
 	<properties>
